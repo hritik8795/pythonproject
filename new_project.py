@@ -1,0 +1,10 @@
+import sqlite3
+db =sqlite3.connect("registercollegeadmin.db")
+cr =db.cursor()
+#r =cr.execute("create table regis(UNAME text, UPASS text, UCN text)")
+#r =cr.execute("create table ins(UROLLNO text,UNAME text, Uphy text, Uche text,UMATH text)")
+#r =cr.execute("create table ADMIN (ANAME text,PASSWORD text, CNO text)")
+r =cr.execute("create table BTECH1 (give_roll_no text,STUDENT_NAME text,FATHER_NAME text,MOTHER_NAME ,DOB text,COURSE text,BRANCH text,CNO text,YEAR text,intermediatemark text,highschoolthmark text,Emailid text,Address text,district text,Pincode text,Adhaarno text"")")
+db.commit()
+db.close()
+print("data inserted")

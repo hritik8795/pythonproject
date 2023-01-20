@@ -1,0 +1,5 @@
+print("HELLO WORLD")
+print("THIS IS MY FRIST PROGRAMME")
+print("THIS PROGRAMME IS WRITTEN IN PYTHAN")
+print ("PYCHARM IS USED TO MAKE THIS PROGRAMME")
+print ("pythan version 3 is used in this programme")
